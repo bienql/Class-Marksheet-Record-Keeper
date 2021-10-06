@@ -1,0 +1,58 @@
+
+.center {
+    text-align: center;
+}
+.padleft {
+    text-indent: 1em;
+}
+.middle {
+    vertical-align: middle;
+}
+.turnred {
+    background-color: red;
+}
+.turnred-revert {
+    background-color: transparent;
+}
+th {
+    cursor: pointer;
+}
+.editblock {
+    opacity:0;
+    float:right;
+}
+.padleft:hover .editblock {
+    opacity: 1;
+    float:right;
+}
+
+.delete {
+    color: lightpink;
+}
+
+.edit {
+    color: royalblue;
+}
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .fa {
+    position: absolute;
+    padding: 10px;
+}
+
+.right-addon .fa-check {
+    right: 5px;
+    top: 0px;
+}
+.right-addon .fa-ban {
+    right: 32px;
+    top: 0px;
+    z-index: 1;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
